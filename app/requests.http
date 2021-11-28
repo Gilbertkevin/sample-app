@@ -1,0 +1,17 @@
+GET  http://localhost:3000/hello_path.json
+
+###
+GET http://localhost:3000/tv_path.json
+
+###
+GET http://localhost:3000/sunshine.json
+
+###
+GET https://google-flights-search.p.rapidapi.com/search
+Content-Type: application/json
+
+{
+  departure_airport_code: 'SFO',
+  arrival_airport_code: 'LAX',
+  flight_class: 'Economy'
+}
